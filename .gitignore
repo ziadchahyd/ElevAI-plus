@@ -1,0 +1,30 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.pkl
+*.joblib
+
+# Node / React
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Tests / reports
+playwright-report/
+test-results/
+
+# DB / local files
+*.sqlite3
+*.db
+*.log
