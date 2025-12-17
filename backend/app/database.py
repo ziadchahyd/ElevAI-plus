@@ -5,7 +5,7 @@ DATABASE_URL = "sqlite:///./elevai.db"
 
 engine = create_engine(
     DATABASE_URL,
-    connect_args={"check_same_thread": False}  # required for SQLite with FastAPI
+    connect_args={"check_same_thread": False}  # Important sur SQLite avec FastAPI
 )
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
